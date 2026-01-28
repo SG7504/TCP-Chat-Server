@@ -34,7 +34,6 @@ def handle_client(conn, addr):
             if not msg:
                 continue
 
-            # LOGIN
             if username is None:
                 if not msg.startswith("LOGIN "):
                     conn.sendall(b"ERR invalid-login\n")
