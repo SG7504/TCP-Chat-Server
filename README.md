@@ -1,4 +1,4 @@
-````markdown
+
 # TCP Chat Server
 
 A simple multi-client TCP chat server built using Python standard libraries.  
